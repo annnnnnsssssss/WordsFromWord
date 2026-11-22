@@ -1,32 +1,23 @@
-# Words from Word Generator
+# Words from Word Generator 🎮
 
-A Java module that generates game levels from a dictionary and a list of main words.
+A Java module that generates game levels from a dictionary and a list of main words. The program calculates difficulty and filters subwords based on specific rules.
 
-## Tech Stack
-- Java
-- Gson (for JSON serialization)
-- Maven
+## 🛠 Tech Stack
+*   **Language:** Java (JDK 17+)
+*   **Libraries:** Gson (for JSON serialization)
+*   **Collections:** Java Collections Framework, Stream API
+*   **Build Tool:** Maven
 
-## Task Description
-The program takes a dictionary of Russian words and a list of main words. It generates a JSON structure containing levels. Each level has a main word, a set of subwords, difficulty, and the minimum number of subwords required to pass. Words are filtered based on a config file (minimum length, letter multiplicity, etc.).
+## 🧠 How it works
+The program takes a dictionary and a list of main words. For each main word, it finds valid subwords. A subword is valid if:
+1. Its length is not less than `minSubWordLength`.
+2. It can be formed from the letters of the main word (considering letter multiplicity).
+3. It is not a duplicate.
+4. The main word itself is not included in the subwords list.
 
-## Input Example
-**Dictionary:** `["десант", "адрес", "армия", "место", "метро", "демон"]`
-**Main Words:** `["ДЕМОНСТРАЦИЯ", "ВЗАИМНОСТЬ"]`
+Based on the number of found subwords and the length of the main word, the program calculates the difficulty (`EASY`, `MEDIUM`, `HARD`). If there are not enough subwords to pass the level (`minWordsToPass`), the level is skipped.
 
-## Output Example
-```json
-{
-  "levels": [
-    {
-      "id": 1,
-      "mainWord": "ДЕМОНСТРАЦИЯ",
-      "difficulty": "HARD",
-      "minWordsToPass": 2,
-      "subWords": [
-        { "text": "АДРЕС", "hint": "" },
-        { "text": "АРМИЯ", "hint": "" }
-      ]
-    }
-  ]
-}
+## 📥 Input Example
+```java
+Dictionary: ["десант", "адрес", "армия", "место", "метро", "демон"]
+Main Words: ["ДЕМОНСТРАЦИЯ", "ВЗАИМНОСТЬ"]
