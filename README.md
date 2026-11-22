@@ -30,4 +30,3 @@ The program takes a dictionary of Russian words and a list of main words. It gen
     }
   ]
 }
-##Screenshots
