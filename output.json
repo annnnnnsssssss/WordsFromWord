@@ -1,0 +1,48 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "mainWord": "ДЕМОНСТРАЦИЯ",
+      "difficulty": "HARD",
+      "minWordsToPass": 2,
+      "subWords": [
+        {
+          "text": "АДРЕС",
+          "hint": ""
+        },
+        {
+          "text": "АРМИЯ",
+          "hint": ""
+        },
+        {
+          "text": "ДЕМОН",
+          "hint": ""
+        },
+        {
+          "text": "ДЕСАНТ",
+          "hint": ""
+        },
+        {
+          "text": "ДОМ",
+          "hint": ""
+        },
+        {
+          "text": "МЕСТО",
+          "hint": ""
+        },
+        {
+          "text": "МЕТРО",
+          "hint": ""
+        },
+        {
+          "text": "МОНСТР",
+          "hint": ""
+        },
+        {
+          "text": "ЯМА",
+          "hint": ""
+        }
+      ]
+    }
+  ]
+}
