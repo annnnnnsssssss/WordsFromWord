@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Words from Word - Level Generator is a Java module that automatically creates game levels from a provided dictionary of Russian words and a list of main words. The program normalizes and validates input data, selects valid subwords considering letter multiplicities, calculates the difficulty level, and saves the structured result to a JSON file.
+
 
 ## Features
 
