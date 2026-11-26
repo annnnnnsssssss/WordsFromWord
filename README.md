@@ -1,4 +1,4 @@
-# Words from Word - Level Generator
+# Words from Word - Level Generator :)
 
 ## Project Description
 
