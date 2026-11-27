@@ -43,7 +43,20 @@ The program includes input validation and edge-case checks to ensure correct lev
 ## Project Structure
 
 ```text
-
+│
+├── src/
+│   └── main/
+│       └── java/
+│           └── org/
+│               └── example/
+│                   ├── Main.java
+│                   ├── Config.java
+│                   ├── LevelGenerator.java
+│                   ├── Level.java
+│                   └── SubWord.java
+│
+├── pom.xml
+└── output.json
 
 The `pom.xml` file configures the Maven project and Gson dependency, and the generated `output.json` file is saved in the project root directory.
 
