@@ -84,19 +84,12 @@ The `pom.xml` file configures the Maven project and Gson dependency, and the gen
 
 ## How to Run the Program
 
-1. Clone the repository and open the project in IntelliJ IDEA.
-2. Wait for Maven to load the project and
-715777210-8629effb-9a58-4925-a310-6c80f9c7f844.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261126T153855Z&X-Amz-Expires=300&X-Amz-Signature=f6fa0d480fd45ce32ef3790dfcaec
-github-production-user-asset-6210df.s3.amazonaws.com
-
-
-
-
-download the Gson dependency from `pom.xml`.
-3. Open `src/main/java/org/example/Main.java`.
-4. Check or adjust the dictionary, main words, and configuration parameters in `Config.java` if needed.
+1. Clone the repository and open the project in **IntelliJ IDEA**.
+2. Wait for Maven to load the project and download the Gson dependency from `pom.xml`.
+3. Open the file `src/main/java/org/example/Main.java`.
+4. Check or configure the dictionary, main words, and config parameters in `Config.java` (if necessary).
 5. Run the `main()` method in `Main.java`.
-6. Check the console output for successful execution and open the generated `output.json` file in the project root directory.
+6. Check the console output for successful execution and open the generated `output.json` file in the project root folder.
 
 <img width="449" height="570" alt="{BCE7B742-1066-4310-B220-FB6B2A9A9AC3}" src="https://github.com/user-attachments/assets/bda259cd-7f6f-4286-bfde-73d5422105c1" />
 <img width="933" height="516" alt="{6725AE58-F8AB-45B4-B99E-4FE76C247651}" src="https://github.com/user-attachments/assets/bcb48b6f-d5b2-4cd4-aa5a-d43d9e0fb8fe" />
