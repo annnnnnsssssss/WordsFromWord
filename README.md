@@ -84,12 +84,13 @@ The `pom.xml` file configures the Maven project and Gson dependency, and the gen
 
 ## How to Run the Program
 
-1. Clone the repository and open the project in **IntelliJ IDEA**.
-2. Wait for Maven to load the project and download the Gson dependency from `pom.xml`.
-3. Open the file `src/main/java/org/example/Main.java`.
-4. Check or configure the dictionary, main words, and config parameters in `Config.java` (if necessary).
-5. Run the `main()` method in `Main.java`.
-6. Check the console output for successful execution and open the generated `output.json` file in the project root folder.
+1. Clone the repository and open the project in **IntelliJ IDEA**
+2.
+3. Wait for Maven to load the project and download the Gson dependency from `pom.xml`.
+4. Open the file `src/main/java/org/example/Main.java`.
+5. Check or configure the dictionary, main words, and config parameters in `Config.java` (if necessary).
+6. Run the `main()` method in `Main.java`.
+7. Check the console output for successful execution and open the generated `output.json` file in the project root folder.
 
 <img width="449" height="570" alt="{BCE7B742-1066-4310-B220-FB6B2A9A9AC3}" src="https://github.com/user-attachments/assets/bda259cd-7f6f-4286-bfde-73d5422105c1" />
 <img width="933" height="516" alt="{6725AE58-F8AB-45B4-B99E-4FE76C247651}" src="https://github.com/user-attachments/assets/bcb48b6f-d5b2-4cd4-aa5a-d43d9e0fb8fe" />
